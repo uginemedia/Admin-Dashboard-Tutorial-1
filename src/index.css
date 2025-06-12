@@ -123,12 +123,6 @@ body {
   transition: all 0.3s ease-in;
 }
 
-.sidebar-list li a > div {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .sidebar-list li a .icon {
   padding: 10px;
   border-radius: 50%;
@@ -272,6 +266,7 @@ body {
 
 .main-content-header > div:last-child > a .info > div span:last-child {
   font-size: 0.8em;
+  color: #617293;
 }
 
 .main-content-header > div:last-child > a:focus .info {
@@ -280,10 +275,6 @@ body {
 
 .main-content-header > div:last-child > a .info > div:hover {
   background: #000;
-}
-
-.main-content-header > div:last-child > a:hover .info > div span:last-child {
-  color: #617293;
 }
 
 .main-content-header > div:last-child > a img {
@@ -317,14 +308,11 @@ body {
 
 .info-2 > div > span:last-child {
   font-size: 0.8em;
+  color: #617293;
 }
 
 .info-2 > div:hover {
   background: #000;
-}
-
-.main-content-header > div:last-child > a:hover .info-2 > div span:last-child {
-  color: #617293;
 }
 
 .main-content-header > div:last-child > a:nth-child(2):focus .info-2 {
@@ -345,14 +333,11 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, .2);
   transition: all 0.3s ease-in;
   font-size: 0.9em;
+  color: #fff;
 }
 
 .info-3 > p:hover {
   background: #000;
-}
-
-.main-content-header > div:last-child > a:hover .info-3 > p {
-  color: #617293;
 }
 
 .main-content-header > div:last-child > a:nth-child(3):focus .info-3 {

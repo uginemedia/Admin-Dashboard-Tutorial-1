@@ -99,9 +99,6 @@ const CustomTooltip = ({ active, payload, label }) => {
             <li><a href="#"><FontAwesomeIcon className="icon" icon={faChartColumn} /> <span>Charts</span></a></li>
             <li><a href="#"><FontAwesomeIcon className="icon" icon={faFile} /> <span>Pages</span></a></li>
           </ul>
-          <div className="switch-tab">
-            
-          </div>
         </nav>
       </aside>
 
